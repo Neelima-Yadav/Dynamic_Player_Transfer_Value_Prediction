@@ -164,10 +164,13 @@ The main objective of this project is to:
 ## 📸 Screenshots
 
 ###  Notebook Execution
-![Execution](screenshots/execution.png)
+
+![Execution Output 1](screenshots/execution_1.png)
+
+![Execution Output 2](screenshots/execution_2.png)
 
 ###  Model Output
-![Model Output](screenshots/output.png)
+![Model Output](screenshots/model_output.png)
 
 ---
 
@@ -185,12 +188,14 @@ Dynamic_Player_Transfer_Value_Prediction/
 │   └── index.html
 │
 ├── docs/
-│   ├── Infosys Presentation.pptx
-│   └── report.pdf
+│   └── Infosys Presentation.pptx
 │
 ├── screenshots/
-│   ├── execution.png
-│   └── output.png
+│   ├── execution_1.png
+│   ├── execution_2.png
+│   └── model_output.png
+│
+├── requirements.txt
 │
 └── README.md
 ```
