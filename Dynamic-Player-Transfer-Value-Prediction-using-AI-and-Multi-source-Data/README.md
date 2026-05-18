@@ -1,13 +1,21 @@
-# Dynamic Player Transfer Value Prediction
+# ⚽ Dynamic Player Transfer Value Prediction
 
-##  Introduction
+## 🚀 Deployment
+
+🌐 Live Demo: https://dynamicplayertransfervalueprediction-qxthgcdvx3e85fx6ul8yee.streamlit.app
+
+Click the link above to access the deployed application
+
+---
+
+## 📌 Introduction
 This project aims to predict the transfer value of football players using machine learning techniques. The model analyzes various player attributes such as performance, age, and statistics to estimate their market value.
 Instead of manually entering player details, the system allows the user to select a player and then predicts their transfer value based on historical performance data.
 The project is implemented using Python and Jupyter Notebook, following a complete machine learning pipeline.
 
 ---
 
-##  Problem Statement
+## 🎯 Problem Statement
 Estimating a football player's transfer value manually is challenging because:
 - It depends on multiple performance factors
 - Manual estimation is subjective and inconsistent
@@ -19,7 +27,7 @@ This project solves the problem using a data-driven machine learning approach.
 
 ---
 
-##  Proposed Solution
+## 💡 Proposed Solution
 A machine learning model is developed to:
 - Analyze player performance data
 - Learn patterns from historical records
@@ -32,7 +40,7 @@ This helps in making better financial and strategic decisions in sports analytic
 
 ---
 
-##  Objective
+## 🔥 Objective
 The main objective of this project is to:
 - Predict player transfer value accurately
 - Analyze important features affecting player value
@@ -40,7 +48,7 @@ The main objective of this project is to:
 
 ---
 
-##  Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -49,7 +57,7 @@ The main objective of this project is to:
 
 ---
 
-##  Workflow
+## ⚙️ Workflow
 
 1. **Data Collection**
    Data is collected from multiple sources:
@@ -97,7 +105,7 @@ The main objective of this project is to:
 
 8. **Prediction**
    - User selects a player  
-   - Model processes the player’s data  
+   - Model processes the player's data  
    - Predicts transfer value  
 
  9. **Output**
@@ -130,7 +138,7 @@ The main objective of this project is to:
 
 ---
 
-##  Dataset Details
+## 🔄 Dataset Details
 - Multi-source dataset including:
   - Player performance metrics  
   - Market data  
@@ -140,7 +148,7 @@ The main objective of this project is to:
 
 ---
 
-##  Final Output
+##  🖥️ Final Output
 
 ### How it works:
 - User selects a player  
@@ -149,40 +157,57 @@ The main objective of this project is to:
 
 ### Example:
 - Selected Player: XYZ  
-- Output: Predicted Transfer Value = ₹XX Million  
+- Predicted Transfer Value = €XX Million
 
 ---
 
-##  Screenshots
+## 📸 Screenshots
 
 ###  Notebook Execution
-![Execution](screenshots/execution.png)
+
+![Execution Output 1](screenshots/execution_1.png)
+
+![Execution Output 2](screenshots/execution_2.png)
 
 ###  Model Output
-![Model Output](screenshots/output.png)
+![Model Output](screenshots/model_output.png)
 
 ---
 
-## Project Structure
+## 📁 Project Structure
+
+```text
 Dynamic_Player_Transfer_Value_Prediction/
 │
-├── Milestones.ipynb
-├── index.html
-├── Infosys Presentation.pptx
-├── report.pdf
+├── app.py
+│
+├── notebooks/
+│   └── Milestones.ipynb
+│
+├── frontend/
+│   └── index.html
+│
+├── docs/
+│   └── Infosys Presentation.pptx
+│
 ├── screenshots/
+│   ├── execution_1.png
+│   ├── execution_2.png
+│   └── model_output.png
+│
+├── requirements.txt
+│
 └── README.md
+```
 
 ---
 
-##  Future Improvements
+## 🚀 Future Improvements
 - Use advanced models for better accuracy
 - Add real-time data
 - Deploy as a web application
 
 ---
 
-##  Conclusion
-This project demonstrates how machine learning can be used to predict football player transfer values. It helps in understanding the key factors influencing player pricing.
-
----
+## 📚 Conclusion
+This project demonstrates how machine learning can be used to predict football player transfer values. It helps in understanding the key factors influencing player pricing
